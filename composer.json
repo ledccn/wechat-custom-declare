@@ -1,0 +1,28 @@
+{
+    "name": "ledc/wechat-custom-declare",
+    "description": "微信支付清关报关（V2）",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "david",
+            "email": "367013672@qq.com",
+            "homepage": "https://www.iyuu.cn",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-simplexml": "*",
+        "ext-libxml": "*",
+        "ext-openssl": "*",
+        "ledc/wechatpay-profit-sharing": "^7.0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ledc\\WechatCustomDeclare\\": "src/"
+        }
+    }
+}
